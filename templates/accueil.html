@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion de Budget</title>
+  <!-- Liens vers Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Styles personnalisés -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .jumbotron {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+    }
+    .feature {
+      padding: 50px 0;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+    .feature-icon {
+      font-size: 60px;
+      color: #007bff;
+    }
+    .btn-login {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">Gestion de Budget</h1>
+    <p class="lead">Prenez le contrôle de vos finances personnelles dès aujourd'hui.</p>
+    <a class="btn btn-primary btn-lg" href="/inscription" role="button">Commencer</a>
+  </div>
+</div>
+
+<!-- Boutons "Créer un compte" et "Se connecter" -->
+<div class="container">
+  <div class="row justify-content-end">
+    <div class="col-auto">
+      <a href="/inscription" class="btn btn-primary btn-login">Créer un compte</a>
+      <a href="/connexion" class="btn btn-outline-primary btn-login">Se connecter</a>
+    </div>
+  </div>
+</div>
+
+<!-- Features Section -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="feature">
+        <i class="fas fa-money-check-alt feature-icon"></i>
+        <h3>Planification financière</h3>
+        <p>Créez des budgets personnalisés et suivez vos dépenses pour atteindre vos objectifs financiers.</p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="feature">
+        <i class="fas fa-chart-line feature-icon"></i>
+        <h3>Analyse des données</h3>
+        <p>Visualisez vos données financières sous forme de graphiques et de tableaux pour prendre des décisions éclairées.</p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="feature">
+        <i class="fas fa-user-shield feature-icon"></i>
+        <h3>Sécurité des données</h3>
+        <p>Nous prenons la sécurité de vos informations financières très au sérieux. Vos données sont protégées.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Liens vers Bootstrap JS et Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
